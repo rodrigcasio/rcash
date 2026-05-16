@@ -1,0 +1,15 @@
+# Build artifacts
+rcash
+*.o
+*.d
+*.out
+
+# editor/ide files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# debug stuff
+core
