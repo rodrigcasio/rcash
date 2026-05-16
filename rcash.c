@@ -17,7 +17,7 @@ int main (void) {
       break;
     }
     
-    line[strcspn(line, '\n')] = '\0';  // avoiding leaving inputs with '\n' at the end
+    line[strcspn(line, "\n")] = '\0';  // Remove trailing newline if present in input
   
   }
   printf("\n-closing rcash...\n");
